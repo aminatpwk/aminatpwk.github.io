@@ -9,7 +9,7 @@ profile:
   image: 913a8cf0-b24b-4ccb-ac46-50750e4b6305.jpg
   image_circular: true
   more_info: >
-    <p><a href="mailto:amina.sokoli@fti.edu.al">aminasokoli0602@outlook.com</a></p>
+    <p><a href="mailto:aminasokoli@outlook.com">aminasokoli0602@outlook.com</a></p>
     <p>Polytechnic University of Tirana</p>
     <p>Tirana, Albania</p>
 

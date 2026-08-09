@@ -1,14 +1,13 @@
 cv:
   name: Amina Sokoli
   label: Computer Engineer · Affiliated Researcher
-  email: amina.sokoli@fti.edu.al
+  email: aminasokoli0602@outlook.com
   location: Tirana, Albania
   image: ""
   summary: >
-    Computer engineer with experience in full-stack software development, data protection, and
-    systems research. Affiliated researcher at CISPA Helmholtz Center for Information Security,
-    focusing on hardware-software co-design, HBM-PIM architectures, and performance characterization
-    of large-scale agent-based simulations.
+    Computer Engineer and Affiliated Researcher at CISPA Helmholtz Center for Information Security,
+    studying performance bottlenecks in large-scale Agent-Based simulations and hardware-software
+    co-design for high-performance computing environments.
 
   social_networks:
     - network: GitHub
@@ -17,58 +16,6 @@ cv:
       username: amina-sokoli-a34554247
 
   sections:
-    Experience:
-      - company: CISPA Helmholtz Center for Information Security
-        position: Affiliated Researcher
-        location: Remote
-        start_date: 2026-02
-        end_date: present
-        summary: >
-          Characterizing performance bottlenecks of large-scale agent-based simulations using the
-          DAMOV methodology on Google Cloud VMs; focusing on hardware-software co-design,
-          particularly optimizing HBM-PIM (High Bandwidth Memory with Processing-In-Memory)
-          architectures to address memory bottlenecks in high-performance computing environments.
-        highlights:
-          - Contributing to advanced research in distributed systems and scalable simulation frameworks (BioDynaMo; CARTopiaX; NeuroDev).
-
-      - company: 3i Solutions Albania
-        position: Software Engineer
-        location: Tirana, Albania · On site
-        start_date: 2025-09
-        end_date: present
-        summary: Full-time software engineering on identity and access management platforms.
-        highlights:
-          - Contributor to Able+ UK IAM and C3 for Collaboration (C34C).
-          - Designed REST and SOAP APIs; migrated Elasticsearch across versions in .NET applications.
-          - Implemented SAML and OAuth identity provider integrations and Windows agent onboarding with MSIX packaging.
-          - Upgraded .NET frameworks, designed database schemas, and wrote unit, integration, and end-to-end tests.
-
-      - company: 3i Solutions Albania
-        position: Data Protection Officer
-        location: Tirana, Albania · On site
-        start_date: 2025-05
-        end_date: present
-        summary: Ensuring GDPR compliance and privacy-by-design across the organization.
-        highlights:
-          - Maintained records of processing activities (RoPA) and compliance documentation.
-          - Conducted DPIAs and PIAs for new products and processing activities.
-          - Advised management on privacy risks and collaborated with Legal, Security, IT, and HR teams.
-
-      - company: 3i Solutions Albania
-        position: Software Engineer (Internship)
-        location: Tirana, Albania · On site
-        start_date: 2025-07
-        end_date: 2025-09
-        highlights:
-          - Full-stack development with Angular and .NET for a booking application.
-
-      - company: RISC-V International
-        position: Individual Member
-        location: Remote
-        start_date: 2024-08
-        end_date: present
-        summary: Participating in RISC-V community initiatives and following working groups.
-
     Education:
       - institution: Polytechnic University of Tirana
         location: Tirana, Albania
@@ -77,44 +24,76 @@ cv:
         start_date: 2022-10
         end_date: 2025-07
 
-    Publications:
+    Research Interests:
+      - summary: High performance computer architecture, with focus on
+        highlights:
+          - Memory systems
+          - Hardware-software co-design for data-intensive workloads
+          - Graph processing
+          - Prefetching in irregular workloads
+
+    Experience:
+      - company: CISPA Helmholtz Center for Information Security
+        position: Affiliated Researcher
+        location: Remote
+        start_date: 2026-02
+        end_date: present
+
+      - company: 3i Solutions Albania
+        position: Software Engineer
+        location: Tirana, Albania · On site
+        start_date: 2025-07
+        end_date: present
+        summary: Full-time; microservices and distributed systems.
+
+    Research Work:
       - title: Understanding Performance Bottlenecks of Large-Scale Agent-Based Simulations
         authors:
           - Amina Sokoli
           - Abdullah Giray Yaglikci
         publisher: ACACES 2026, HiPEAC Summer School, Fiuggi, Italy
-        releaseDate: 2026-07-12
-        summary: Poster presentation; merit-based grant recipient.
+        releaseDate: 2026-07
+        summary: Poster.
 
       - title: "Practical Implications of BMSSP: Shortest Path Computation on Urban Road Networks"
         authors:
           - Ina Papadhopulli
           - Amina Sokoli
         publisher: ICITEE25, Tirana, Albania
-        releaseDate: 2025-12-12
-      
+        releaseDate: 2025-12
+
       - title: Implementing Encryption as an Architectural Approach to Securing Memory Systems
         authors:
           - Ina Papadhopulli
           - Amina Sokoli
         publisher: Oct. 2025
-        releaseDate: 2025-10-01
+        releaseDate: 2025-10
 
     Skills:
-      - name: Programming
-        level: Advanced
-        icon: fa-solid fa-code
-        keywords: "Java, JavaScript, TypeScript, C#, C, C++, Verilog, VHDL, PL/SQL"
-
-      - name: Frameworks & Tools
-        level: Advanced
-        icon: fa-solid fa-layer-group
-        keywords: "Angular, Spring Boot, ASP.NET, React, Docker, Git, Azure DevOps, Elasticsearch, Kafka"
-
-      - name: Research & Systems
+      - name: Systems & Architecture
         level: Advanced
         icon: fa-solid fa-microchip
-        keywords: "Computer Architecture, Agent-Based Modeling, MPI, OpenMP, Cryptography, Distributed Systems, HPC"
+        keywords: "Computer architecture, distributed systems, MPI, OpenMP, microservices, cryptography"
+
+      - name: Hardware Description Languages
+        level: Advanced
+        icon: fa-solid fa-memory
+        keywords: "Verilog, VHDL"
+
+      - name: Architecture Simulators & Profiling Tools
+        level: Advanced
+        icon: fa-solid fa-gauge-high
+        keywords: "gem5, ZSim, Ramulator v2.0 and v2.1, SimPoints, BarrierPoints, Intel Pin, Valgrind"
+
+      - name: Programming Languages
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "C, C++, Java, PL/SQL, JavaScript, TypeScript, C#"
+
+      - name: Software Engineering
+        level: Advanced
+        icon: fa-solid fa-gears
+        keywords: "DSA, OOP, TDD, agile, refactoring, code review"
 
     Languages:
       - name: Albanian
@@ -127,4 +106,4 @@ cv:
         summary: Intermediate
 
       - name: Italian
-        summary: Pre-intermediate
+        summary: Intermediate

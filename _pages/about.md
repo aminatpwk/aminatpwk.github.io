@@ -23,12 +23,12 @@ latest_posts:
   enabled: false
 ---
 
-I am a **computer engineer** and **affiliated researcher** at [CISPA Helmholtz Center for Information Security](https://cispa.de/), where I study performance bottlenecks in large-scale agent-based simulations and hardware-software co-design for HBM-PIM architectures in high-performance computing.
+I am a **Computer Engineer** and **Affiliated Researcher** at [CISPA Helmholtz Center for Information Security](https://cispa.de/), where I study performance bottlenecks in large-scale Agent-Based Simulations and hardware-software co-design for high-performance computing environments. ([read more](/projects/agent-based-simulations/))
 
-I hold a B.Sc. in Computer Engineering from the [Polytechnic University of Tirana](https://upt.edu.al/) (2025). My research interests include computer architecture, memory systems, agent-based modeling, fault-tolerant distributed systems, and scalable simulation frameworks.
+I hold a B.Sc. in Computer Engineering from the [Polytechnic University of Tirana](https://upt.edu.al/) (2025). My research interests lie in high-performance computer architecture, with a focus on memory systems, hardware-software co-design for data-intensive workloads, graph processing, and prefetching in irregular workloads.
 
-In parallel, I work as a **Software Engineer** and **Data Protection Officer** at [3i Solutions Albania](https://3i-solutions.net/), building enterprise identity and access management systems (.NET, Angular, Java) while ensuring GDPR compliance and privacy-by-design practices. I am also an individual member of [RISC-V International](https://riscv.org/), following community initiatives and working groups.
+My recent work includes a poster at **ACACES 2026** (HiPEAC Summer School, Fiuggi, Italy) as a merit-based grant recipient, a paper on shortest-path computation for urban road networks, and a publication on encryption as an architectural approach to securing memory systems. I am also an individual member of [RISC-V International](https://riscv.org/).
 
-My work spans software engineering and systems research — from API design and backend development to hardware performance characterization on cloud infrastructures. I will be presenting a poster at **ACACES 2026** (HiPEAC Summer School, Fiuggi, Italy) as a merit-based grant recipient.
+In parallel, I work as a **Software Engineer** at [3i Solutions Albania](https://3i-solutions.net/), working with microservices and distributed systems.
 
-See my [publications](/publications/), [projects](/projects/), and [CV](/cv/) for more details.
+See my [publications](/publications/) and [CV](/cv/) for more details.

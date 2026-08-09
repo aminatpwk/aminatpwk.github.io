@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: Research and industry projects in HPC, computer architecture, and software engineering.
-nav: true
+nav: false
 nav_order: 2
 display_categories: [research, industry]
 horizontal: false

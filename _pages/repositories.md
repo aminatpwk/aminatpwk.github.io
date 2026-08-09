@@ -3,7 +3,7 @@ layout: page
 permalink: /repositories/
 title: repositories
 description: Open-source projects and GitHub activity.
-nav: true
+nav: false
 nav_order: 3
 ---
 

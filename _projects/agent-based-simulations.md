@@ -10,11 +10,11 @@ related_publications: true
 
 **Agent-based modeling (ABM)** is a bottom-up method for studying complex systems. We model thousands, millions, even billions of individual agents—each one simple, with its own properties and behavior, each interacting with its neighbors. From these local interactions, global complexity emerges.
 
-Presented as a poster at **ACACES 2026** (HiPEAC Summer School, Fiuggi, Italy) with a merit-based grant {% cite sokoli2026acaces %}.
+Presented as a poster at **ACACES 2026** (HiPEAC Summer School, Fiuggi, Italy) {% cite sokoli2026acaces %}.
 
 ## Why agent-based simulations matter
 
-The ambition is growing: we do not want to simulate just thousands or millions of agents, but **billions**—the world we live in, at the speed it actually operates, at large scale and in real time. Nobody or any tool can do that today.
+The ambition is growing: we do not want to simulate just thousands or millions of agents, but **billions**—the world we live in, at the speed it actually operates, at large scale and in real time. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -69,36 +69,10 @@ We profiled [**BioDynaMo**](https://biodynamo.org/), the state-of-the-art agent-
     Left: large-scale agent distribution at billion-agent counts. Right: the epidemiology benchmark simulated with BioDynaMo, showing agent clustering and neighbor interactions.
 </div>
 
-We derived four metrics for the analysis:
-
-| Metric | What it measures |
-| --- | --- |
-| **IPC** | Instructions per cycle—processor utilization |
-| **LLC MPKI** | Last-level cache misses per kilo-instruction |
-| **Memory-bound fraction** | Share of cycles stalled on memory |
-| **LFMR** | Last-to-first miss ratio—cache line reuse after L1 miss |
-
-## Key findings
-
-1. **IPC sits around 0.4** on a 16-core machine. The processor is mostly idle.
-2. **Memory-bound fraction exceeds 60%** at every agent count tested. This is a memory-bound workload.
-3. **LFMR stays above 0.74** across the board. Most L1 misses skip past L2 entirely—the cache line arrives, the processor touches it once, and it is never reused. L2 is largely ineffective for this workload.
-4. **Non-monotonic scaling behavior:** performance is worst at 10M agents, best at 50M, and degrades again beyond that. This remains an open question.
-5. **A hard memory ceiling:** 200M agents already consumes 58 GB. Memory capacity sets the limit on how far this scales on our machines.
-
-**Memory is standing in the way of simulating the world at the speed it runs.**
-
-## What's next
-
-- **Characterizing locality** in agent access patterns
-- **Validating** hardware profiling results against a simulation-based approach
-- **Extending to GPUs and PIM**, where we expect the memory bottleneck to worsen—not improve—once parallelism is fully embraced
-
 ## Related frameworks & code
 
 - [BioDynaMo](https://biodynamo.org/) — state-of-the-art ABM framework (CERN)
 - [ACACES 2026 profiling study](https://github.com/aminatpwk/acaces26-agent-based-modeling) — experiment scripts and analysis
 - [CARTopiaX](https://github.com/aminatpwk/CARTopiaX) — scalable simulation framework
-- NeuroDev — neural development simulation
 
-This project bridges agent-based modeling research with computer architecture and performance engineering, connecting to affiliated work on [HBM-PIM memory systems](/projects/cispa-hbm-pim-research/).
+This project bridges agent-based modeling research with computer architecture and performance engineering.

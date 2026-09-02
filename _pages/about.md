@@ -10,8 +10,7 @@ profile:
   image_circular: true
   more_info: >
     <p><a href="mailto:aminasokoli@outlook.com">aminasokoli0602@outlook.com</a></p>
-    <p>Polytechnic University of Tirana</p>
-    <p>Tirana, Albania</p>
+    <p>CISPA Helmholtz Center for Information Security</p>
 
 selected_papers: true
 social: true

@@ -51,6 +51,14 @@ cv:
         authors:
           - Amina Sokoli
           - Abdullah Giray Yaglikci
+        publisher: REACH 2026 by IET, London, United Kingdom
+        releaseDate: 2026-11
+        summary: Poster.
+        
+      - title: Understanding Performance Bottlenecks of Large-Scale Agent-Based Simulations
+        authors:
+          - Amina Sokoli
+          - Abdullah Giray Yaglikci
         publisher: ACACES 2026, HiPEAC Summer School, Fiuggi, Italy
         releaseDate: 2026-07
         summary: Poster.

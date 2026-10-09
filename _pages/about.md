@@ -24,10 +24,8 @@ latest_posts:
 
 I am a **Computer Engineer** and **Affiliated Researcher** at [CISPA Helmholtz Center for Information Security](https://cispa.de/), where I study performance bottlenecks in large-scale Agent-Based Simulations and hardware-software co-design for high-performance computing environments. ([read more](/projects/agent-based-simulations/))
 
-I hold a B.Sc. in Computer Engineering from the [Polytechnic University of Tirana](https://upt.edu.al/) (2025). My research interests lie in high-performance computer architecture, with a focus on memory systems, hardware-software co-design for data-intensive workloads, graph processing, and prefetching in irregular workloads.
-
-My recent work includes a poster at **ACACES 2026** (HiPEAC Summer School, Fiuggi, Italy) as a grant recipient, a paper on shortest-path computation for urban road networks, and a publication on encryption as an architectural approach to securing memory systems. I am also an individual member of [RISC-V International](https://riscv.org/).
-
 In parallel, I work as a **Software Engineer** at [3i Solutions Albania](https://3i-solutions.net/), working with microservices and distributed systems.
+
+I hold a B.Sc. in Computer Engineering from the [Polytechnic University of Tirana](https://upt.edu.al/) (2025). My research interests lie in high-performance computer architecture, with a focus on memory systems, hardware-software co-design for data-intensive workloads, graph processing, and prefetching in irregular workloads.
 
 See my [publications](/publications/) and [CV](/cv/) for more details.

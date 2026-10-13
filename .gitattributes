@@ -1,2 +1,5 @@
 # Force LF line endings, needed for Docker to work on Windows
 *.sh text eol=lf
+
+# Binary files: never let Git attempt line-ending conversion on these
+*.pdf binary

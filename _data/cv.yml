@@ -16,96 +16,117 @@ cv:
       username: amina-sokoli-a34554247
 
   sections:
+    Research Interests:
+      - summary: "Computer architecture and microarchitecture with a focus on:"
+        highlights:
+          - "Memory systems. Processing-in-memory and near-data processing. Data movement bottlenecks."
+          - "Cloud architectures. Energy-efficient and heterogeneous infrastructure."
+          - "Security and privacy (hardware security, RowHammer)."
+          - "Agent-based modeling (large-scale simulation)."
+          - "High performance computing (multi-core, GPUs). Parallel programming and performance optimisation."
+
     Education:
+      - institution: ACACES
+        location: Fiuggi, Italy
+        area: "Advanced Computer Architecture and Compilation for High-Performance Embedded Systems (ACACES)"
+        studyType: Summer School
+        start_date: 2026-07
+        end_date: 2026-07
+        highlights:
+          - "Completed coursework: Compiler Design for AI Chips and Programming Frameworks; Feeding the Beast: Three Decades of Wasted (CPU) Cycles; Memory Consistency and Cache Coherence; Composable Heterogeneous Computing: A New Design Paradigm"
+          - "Presented poster: Understanding Performance Bottlenecks of Large-Scale Agent-based Simulations"
+
       - institution: Polytechnic University of Tirana
         location: Tirana, Albania
         area: Computer Engineering
         studyType: Bachelor
         start_date: 2022-10
         end_date: 2025-07
-
-    Research Interests:
-      - summary: High performance computer architecture, with focus on
         highlights:
-          - Memory systems
-          - Hardware-software co-design for data-intensive workloads
-          - Graph processing
-          - Prefetching in irregular workloads
+          - "Thesis Title: Implementing Encryption as an Architectural Approach to Securing Memory Systems"
 
     Experience:
       - company: CISPA Helmholtz Center for Information Security
-        position: Affiliated Researcher
+        position: "Affiliated Researcher, Secure and Sustainable System Scaling Lab (S4L)"
         location: Remote
         start_date: 2026-02
         end_date: present
+        highlights:
+          - Characterised memory and performance bottlenecks of large-scale agent-based simulations presented at ACACES and REACH 2026
+          - Develop BeSA, a representative agent-based modeling benchmark suite for architecture simulators; presented at Arch4Health workshop in conjunction with MICRO 2026
+          - Studied fault tolerance in shared-memory and MPI-based execution covering communication and failure handling
 
-      - company: 3i Solutions Albania
-        position: Software Engineer
-        location: Tirana, Albania · On site
+      - company: 3i Solutions
+        position: Full-stack Software Engineer
+        location: Tirana, Albania
         start_date: 2025-07
         end_date: present
-        summary: Full-time; microservices and distributed systems.
+        highlights:
+          - Develop and maintain microservices in cloud-based distributed systems
+          - "Teach and mentor interns in the company's software engineering internship program each cycle since late 2025"
 
     Research Work:
-      - title: Understanding Performance Bottlenecks of Large-Scale Agent-Based Simulations
+      - title: Understanding Performance Bottlenecks of Large-Scale Agent-based Simulations
         authors:
           - Amina Sokoli
-          - Abdullah Giray Yaglikci
-        publisher: REACH 2026 by IET, London, United Kingdom
-        releaseDate: 2026-11
+          - A. Giray Yaglikci
+        publisher: "REACH Conference: Emerging Architectures in Computing Horizons, 2026"
+        releaseDate: 2026
         summary: Poster.
-        
-      - title: Understanding Performance Bottlenecks of Large-Scale Agent-Based Simulations
+
+      - title: "BeSA: Benchmarks for Simulating Agent-based Models in Architecture Research"
         authors:
           - Amina Sokoli
-          - Abdullah Giray Yaglikci
-        publisher: ACACES 2026, HiPEAC Summer School, Fiuggi, Italy
-        releaseDate: 2026-07
-        summary: Poster.
+          - A. Giray Yaglikci
+        publisher: "4th Arch4Health workshop, MICRO, 2026"
+        releaseDate: 2026
+        summary: Talk.
 
       - title: "Practical Implications of BMSSP: Shortest Path Computation on Urban Road Networks"
         authors:
-          - Ina Papadhopulli
           - Amina Sokoli
-        publisher: ICITEE25, Tirana, Albania
-        releaseDate: 2025-12
+          - Ina Papadhopulli
+        publisher: ICITEE, 2025
+        releaseDate: 2025
+        summary: Paper.
 
       - title: Implementing Encryption as an Architectural Approach to Securing Memory Systems
         authors:
-          - Ina Papadhopulli
           - Amina Sokoli
-        publisher: Oct. 2025
-        releaseDate: 2025-10
+          - Ina Papadhopulli
+        publisher: "2025"
+        releaseDate: 2025
+        summary: Paper.
 
     Skills:
       - name: Systems & Architecture
         level: Advanced
         icon: fa-solid fa-microchip
-        keywords: "Computer architecture, distributed systems, MPI, OpenMP, microservices, cryptography"
+        keywords: "distributed systems, microservices, MPI, OpenMP, gem5, ZSim, ChampSim, Ramulator v2.0 and v2.1, SimPoint, Intel Pin, Valgrind"
 
       - name: Hardware Description Languages
         level: Advanced
         icon: fa-solid fa-memory
         keywords: "Verilog, VHDL"
 
-      - name: Architecture Simulators & Profiling Tools
-        level: Advanced
-        icon: fa-solid fa-gauge-high
-        keywords: "gem5, ZSim, Ramulator v2.0 and v2.1, SimPoints, BarrierPoints, Intel Pin, Valgrind"
-
-      - name: Programming Languages
-        level: Advanced
-        icon: fa-solid fa-code
-        keywords: "C, C++, Java, PL/SQL, JavaScript, TypeScript, C#"
-
       - name: Software Engineering
         level: Advanced
-        icon: fa-solid fa-gears
-        keywords: "DSA, OOP, TDD, agile, refactoring, code review"
+        icon: fa-solid fa-code
+        keywords: "C, C++, Java, PL/SQL, JavaScript, TypeScript, C#, Python, TDD, agile"
+
+    Services:
+      - company: "Universität des Saarlandes"
+        position: Teaching Assistant in Computer Architecture
+        start_date: 2026-10
+        end_date: present
+        highlights:
+          - Grade student assignments
+          - Mentor students in seminar classes
+          - Supervise and advise students on their literature reviews
 
     Languages:
       - name: Albanian
-        summary: Native
+        summary: Native language
 
       - name: English
         summary: Advanced

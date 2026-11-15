@@ -28,4 +28,4 @@ In parallel, I work as a **Software Engineer** at [3i Solutions Albania](https:/
 
 I hold a B.Sc. in Computer Engineering from the [Polytechnic University of Tirana](https://upt.edu.al/) (2025). My research interests lie in high-performance computer architecture, with a focus on memory systems, hardware-software co-design for data-intensive workloads, graph processing, and prefetching in irregular workloads.
 
-See my [publications](/publications/) and [CV](/cv/) for more details.
+See my [publications](/publications/) and [CV](/assets/pdf/CV.pdf) for more details.
